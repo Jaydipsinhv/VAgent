@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth page-load">
       <body className={`${inter.variable} antialiased`}>
         {children}
-        <script src="https://ai-call-agent-api.alex-ad0.workers.dev/widget/loader.js" data-key="pk_LuuPefGBz3vgvsKRv5BY" async></script>
+        <script src="https://ai-call-agent-api.alex-ad0.workers.dev/widget/loader.js" data-key="pk_eRlipxHXPbDfDq600rFM" async></script>
       </body>
     </html>
   );

@@ -495,7 +495,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              &copy; 2024 VAgent. All rights reserved.
+              &copy; 2025 VAgent. All rights reserved.
             </p>
           </div>
         </div>
