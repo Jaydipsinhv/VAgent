@@ -10,13 +10,13 @@ export default function Home() {
   const features = [
     {
       title: "24/7 Patient Communication",
-      description: "Never miss a patient call. VAgent handles all incoming calls, texts, and emails instantly, ensuring every patient receives immediate attention.",
+      description: "Never miss a patient call. Loqua handles all incoming calls, texts, and emails instantly, ensuring every patient receives immediate attention.",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
         </svg>
       ),
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Intelligent Appointment Scheduling",
@@ -26,17 +26,17 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       ),
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "HIPAA-Compliant & Secure",
-      description: "Built with healthcare security standards in mind. VAgent ensures all patient data is encrypted, secure, and fully compliant with HIPAA regulations.",
+      description: "Built with healthcare security standards in mind. Loqua ensures all patient data is encrypted, secure, and fully compliant with HIPAA regulations.",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
         </svg>
       ),
-      gradient: "from-teal-500 to-emerald-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Proactive Patient Follow-ups",
@@ -46,7 +46,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Advanced Analytics & Insights",
@@ -56,7 +56,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
       ),
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Seamless EHR Integration",
@@ -66,7 +66,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
         </svg>
       ),
-      gradient: "from-cyan-500 to-blue-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
   ];
 
@@ -79,7 +79,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
         </svg>
       ),
-      gradient: "from-teal-500 to-cyan-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Reduce Administrative Burden",
@@ -89,7 +89,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      gradient: "from-blue-500 to-indigo-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Enhance Patient Experience",
@@ -99,7 +99,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
       ),
-      gradient: "from-pink-500 to-rose-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Increase Operational Efficiency",
@@ -109,7 +109,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      gradient: "from-emerald-500 to-teal-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
   ];
 
@@ -123,7 +123,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
         </svg>
       ),
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       step: "02",
@@ -134,7 +134,7 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
         </svg>
       ),
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       step: "03",
@@ -145,18 +145,18 @@ export default function Home() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
         </svg>
       ),
-      gradient: "from-teal-500 to-emerald-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       step: "04",
       title: "Seamless Integration",
-      description: "Build robust APIs and integrations that connect VAgent with existing healthcare infrastructure, ensuring smooth data flow and minimal disruption.",
+      description: "Build robust APIs and integrations that connect Loqua with existing healthcare infrastructure, ensuring smooth data flow and minimal disruption.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
         </svg>
       ),
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
   ];
 
@@ -196,7 +196,7 @@ export default function Home() {
                   <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Communication</span>
                 </h1>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                  VAgent is an intelligent voice agent designed specifically for healthcare. We're building the future where every patient call is answered instantly, every appointment is scheduled seamlessly, and healthcare providers can focus on what matters most—delivering exceptional care.
+                  Loqua is an intelligent voice agent designed specifically for healthcare. We&apos;re building the future where every patient call is answered instantly, every appointment is scheduled seamlessly, and healthcare providers can focus on what matters most—delivering exceptional care.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                   <Link href="/how-it-works" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:from-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg shadow-teal-600/30 hover:shadow-xl hover:shadow-teal-600/40 hover:-translate-y-0.5">
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="relative hidden lg:flex items-center justify-center">
                 <Image
                   src="/vagent-hero.png"
-                  alt="VAgent - Intelligent Healthcare Voice Agent"
+                  alt="Loqua - Intelligent Healthcare Voice Agent"
                   width={500}
                   height={500}
                   className="w-full h-auto max-w-[500px]"
@@ -241,20 +241,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What We're Building Section - Mobile Optimized */}
+      {/* What We&apos;re Building Section - Mobile Optimized */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10 sm:mb-12 lg:mb-16 px-2">
             <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Our Product</span>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-3 sm:mb-4">What We're Building</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-3 sm:mb-4">What We&apos;re Building</h2>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              VAgent is an AI-powered voice assistant specifically designed for healthcare facilities. We're creating an intelligent system that understands medical terminology, handles patient inquiries with empathy, and seamlessly integrates with your existing healthcare infrastructure.
+              Loqua is an AI-powered voice assistant specifically designed for healthcare facilities. We&apos;re creating an intelligent system that understands medical terminology, handles patient inquiries with empathy, and seamlessly integrates with your existing healthcare infrastructure.
             </p>
           </div>
 
           <FadeInStagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-12 sm:mb-16 px-2 sm:px-0">
             {features.map((feature, index) => (
-              <div key={index} className="group p-5 sm:p-6 lg:p-8 bg-white rounded-lg sm:rounded-xl shadow-md sm:shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:border-teal-200 hover-lift">
+              <div key={index} className="group p-5 sm:p-6 lg:p-8 bg-white rounded-lg sm:rounded-xl shadow-md sm:shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:border-teal-200 hover-lift h-full flex flex-col">
                 {/* Icon with gradient card styling - responsive */}
                 <div className="mb-4 sm:mb-6">
                   <div className="relative inline-block group/icon">
@@ -275,7 +275,7 @@ export default function Home() {
                 </div>
                 
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">{feature.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{feature.description}</p>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed flex-grow">{feature.description}</p>
                 </div>
             ))}
           </FadeInStagger>
@@ -289,7 +289,7 @@ export default function Home() {
             <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Our Mission</span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-3 sm:mb-4">What We Aim to Achieve</h2>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Our vision is to revolutionize healthcare communication by making it more accessible, efficient, and patient-centered. Here's what drives us:
+              Our vision is to revolutionize healthcare communication by making it more accessible, efficient, and patient-centered. Here&apos;s what drives us:
             </p>
           </div>
 
@@ -338,7 +338,7 @@ export default function Home() {
             <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Our Approach</span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-3 sm:mb-4">How We Plan to Achieve It</h2>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              We're combining cutting-edge AI technology with deep healthcare domain expertise to build a solution that truly understands and serves the healthcare industry.
+              We&apos;re combining cutting-edge AI technology with deep healthcare domain expertise to build a solution that truly understands and serves the healthcare industry.
             </p>
           </div>
 
@@ -418,7 +418,7 @@ export default function Home() {
             Ready to Transform Your Healthcare Communication?
           </h2>
           <p className="text-xl text-teal-50 mb-8 max-w-2xl mx-auto">
-            Join us in building the future of healthcare communication. Let's discuss how VAgent can help your facility deliver better patient experiences.
+            Join us in building the future of healthcare communication. Let&apos;s discuss how Loqua can help your facility deliver better patient experiences.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -495,7 +495,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              &copy; 2025 VAgent. All rights reserved.
+              &copy; 2025 Loqua. All rights reserved.
             </p>
           </div>
         </div>

@@ -24,24 +24,34 @@ export default function Logo({
   const currentSize = sizeClasses[size];
 
   const content = (
-    <div className={`flex items-center gap-2 ${className}`}>
-      {/* Circuit Tech Logo Icon */}
-      <div className={`${currentSize.icon} bg-gradient-to-br from-teal-600 via-cyan-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg relative overflow-hidden group ${variant === "footer" ? "shadow-teal-500/20" : ""}`}>
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-400 via-cyan-400 to-teal-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        <div className="relative z-10 flex items-center justify-center">
-          <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-            {/* Circuit board pattern */}
-            <rect x="4" y="4" width="4" height="4" rx="1" fill="currentColor" opacity="0.8"/>
-            <rect x="16" y="4" width="4" height="4" rx="1" fill="currentColor" opacity="0.8"/>
-            <rect x="4" y="16" width="4" height="4" rx="1" fill="currentColor" opacity="0.8"/>
-            <rect x="16" y="16" width="4" height="4" rx="1" fill="currentColor" opacity="0.8"/>
-            <line x1="8" y1="6" x2="16" y2="6" stroke="currentColor" strokeWidth="1.5"/>
-            <line x1="8" y1="18" x2="16" y2="18" stroke="currentColor" strokeWidth="1.5"/>
-            <line x1="6" y1="8" x2="6" y2="16" stroke="currentColor" strokeWidth="1.5"/>
-            <line x1="18" y1="8" x2="18" y2="16" stroke="currentColor" strokeWidth="1.5"/>
-            <circle cx="12" cy="12" r="2" fill="currentColor"/>
-          </svg>
-        </div>
+    <div className={`flex items-center gap-0.5 ${className}`}>
+      {/* Loqua Logo Icon */}
+      <div className={`${currentSize.icon} flex items-center justify-center relative group`}>
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <defs>
+            <linearGradient id="loquaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#0d9488" />
+              <stop offset="50%" stopColor="#0891b2" />
+              <stop offset="100%" stopColor="#0d9488" />
+            </linearGradient>
+          </defs>
+          {/* LQ continuous conversational mark */}
+          <path
+            d="
+              M70 40
+              V120
+              C70 145 95 160 120 150
+              C145 140 150 115 135 95
+              C125 80 105 80 95 90
+            "
+            fill="none"
+            stroke="url(#loquaGradient)"
+            strokeWidth="20"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="group-hover:stroke-[22] transition-all duration-300"
+          />
+        </svg>
       </div>
       {/* Text */}
       {showText && (
@@ -50,7 +60,7 @@ export default function Logo({
             ? "text-white"
             : "bg-gradient-to-r from-teal-600 via-cyan-600 to-teal-600 bg-clip-text text-transparent"
         }`}>
-          VAgent
+          Loqua
         </span>
       )}
     </div>

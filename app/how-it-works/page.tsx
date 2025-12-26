@@ -16,7 +16,7 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "2",
@@ -27,18 +27,18 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
       ),
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "3",
       title: "Train Your AI Healthcare Assistant",
-      description: "Using your inputs and healthcare protocols, we train your AI assistant to replicate your best staff members' approach. The system learns medical terminology, appointment scheduling protocols, triage questions, HIPAA compliance requirements, and the compassionate communication style your patients expect.",
+      description: "Using your inputs and healthcare protocols, we train your AI assistant to replicate your best staff member's approach. The system learns medical terminology, appointment scheduling protocols, triage questions, HIPAA compliance requirements, and the compassionate communication style your patients expect.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
-      gradient: "from-teal-500 to-emerald-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "4",
@@ -49,29 +49,29 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
         </svg>
       ),
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "5",
       title: "Proactive Patient Follow-ups",
-      description: "Your AI assistant doesn't just wait for calls—it proactively follows up with patients. Whether it's appointment reminders, medication refill notifications, post-visit check-ins, or preventive care reminders, the system maintains consistent, HIPAA-compliant communication across voice, SMS, and email channels.",
+      description: "Your AI assistant doesn't just wait for calls, it proactively follows up with patients. Whether it's appointment reminders, medication refill notifications, post-visit check-ins, or preventive care reminders, the system maintains consistent, HIPAA-compliant communication across voice, SMS, and email channels.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "6",
       title: "Monitor Performance Dashboard",
-      description: "Gain complete visibility into your patient communication system. Review call recordings, read conversation summaries, monitor appointment booking rates, and track patient satisfaction scores. Instantly see how many patients were served, appointment conversion rates, and identify areas for improvement—all in real-time.",
+      description: "Gain complete visibility into your patient communication system. Review call recordings, read conversation summaries, monitor appointment booking rates, and track patient satisfaction scores. Instantly see how many patients were served, appointment conversion rates, and identify areas for improvement, all in real-time.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
       ),
-      gradient: "from-cyan-500 to-blue-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "7",
@@ -82,18 +82,18 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
         </svg>
       ),
-      gradient: "from-emerald-500 to-teal-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       number: "8",
       title: "Fully Autonomous Operation",
-      description: "With training, feedback, and workflows in place, your AI healthcare assistant operates as a fully independent member of your team. It handles all patient calls, manages appointment scheduling, executes follow-ups, integrates seamlessly with your EHR system, and ensures smooth, end-to-end patient communication—24/7, without breaks or holidays.",
+      description: "With training, feedback, and workflows in place, your AI healthcare assistant operates as a fully independent member of your team. It handles all patient calls, manages appointment scheduling, executes follow-ups, integrates seamlessly with your EHR system, and ensures smooth, end-to-end patient communication 24/7, without breaks or holidays.",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      gradient: "from-green-500 to-emerald-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
   ];
 
@@ -106,7 +106,7 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
         </svg>
       ),
-      gradient: "from-purple-500 to-pink-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Reduced Administrative Burden",
@@ -116,7 +116,7 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      gradient: "from-blue-500 to-cyan-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Higher Appointment Conversion",
@@ -126,17 +126,17 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
         </svg>
       ),
-      gradient: "from-teal-500 to-emerald-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Always-On Patient Engagement",
-      description: "Patients receive consistent, HIPAA-compliant communication through voice, text, and email—regardless of time of day. Appointment reminders, follow-ups, and care coordination happen automatically, keeping patients engaged in their health journey.",
+      description: "Patients receive consistent, HIPAA-compliant communication through voice, text, and email, regardless of time of day. Appointment reminders, follow-ups, and care coordination happen automatically, keeping patients engaged in their health journey.",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      gradient: "from-orange-500 to-red-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Faster Patient Triage",
@@ -146,7 +146,7 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
     {
       title: "Enhanced Clinical Efficiency",
@@ -156,7 +156,7 @@ export default function HowItWorks() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
       ),
-      gradient: "from-cyan-500 to-blue-500",
+      gradient: "from-teal-600 to-cyan-600",
     },
   ];
 
@@ -168,8 +168,9 @@ export default function HowItWorks() {
           <div className="flex justify-between items-center h-16">
             <Logo href="/" />
             <div className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-gray-600 hover:text-teal-600 transition">Home</Link>
+              <Link href="/#features" className="text-gray-600 hover:text-teal-600 transition">Features</Link>
               <Link href="/how-it-works" className="text-teal-600 font-medium">How It Works</Link>
+              <Link href="/#goals" className="text-gray-600 hover:text-teal-600 transition">Our Goals</Link>
               <Link href="/contact" className="text-gray-600 hover:text-teal-600 transition">Contact</Link>
             </div>
             <Link href="/contact" className="bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-5 py-2 rounded-full font-medium hover:from-teal-700 hover:to-cyan-700 transition shadow-lg shadow-teal-600/30">
@@ -185,7 +186,7 @@ export default function HowItWorks() {
           <FadeIn delay={0}>
             <div className="inline-flex items-center gap-2 bg-teal-100 text-teal-700 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
               <span className="w-1.5 sm:w-2 h-1.5 sm:h-2 bg-teal-500 rounded-full animate-pulse"></span>
-              VAgent Implementation Process
+              Loqua Implementation Process
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
@@ -197,7 +198,7 @@ export default function HowItWorks() {
           </FadeIn>
           <FadeIn delay={0.15}>
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2">
-              The faster you respond, the better patient outcomes you achieve. VAgent ensures no call goes unanswered, every patient is engaged with empathy, and all interactions are seamlessly integrated with your healthcare system—so your team spends time on care, not administration.
+              The faster you respond, the better patient outcomes you achieve. Loqua ensures no call goes unanswered, every patient is engaged with empathy, and all interactions are seamlessly integrated with your healthcare system, so your team spends time on care, not administration.
             </p>
           </FadeIn>
         </div>
@@ -387,7 +388,7 @@ export default function HowItWorks() {
             {benefits.map((benefit, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg sm:rounded-xl p-5 sm:p-6 lg:p-8 shadow-md sm:shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-teal-200 hover-lift"
+                className="bg-white rounded-lg sm:rounded-xl p-5 sm:p-6 lg:p-8 shadow-md sm:shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-teal-200 hover-lift h-full flex flex-col"
               >
               {/* Icon with gradient card styling - responsive sizing */}
               <div className="mb-4 sm:mb-6">
@@ -409,7 +410,7 @@ export default function HowItWorks() {
               </div>
               
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">{benefit.title}</h3>
-                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{benefit.description}</p>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed flex-grow">{benefit.description}</p>
                 </div>
             ))}
           </FadeInStagger>
@@ -423,7 +424,7 @@ export default function HowItWorks() {
             Ready to Transform Your Healthcare Communication?
           </h2>
           <p className="text-xl text-teal-100 mb-8">
-            Join forward-thinking healthcare facilities that are revolutionizing patient care with VAgent.
+            Join forward-thinking healthcare facilities that are revolutionizing patient care with Loqua.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white text-teal-600 px-8 py-4 rounded-full font-semibold hover:bg-teal-50 transition shadow-lg">
@@ -466,7 +467,7 @@ export default function HowItWorks() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>hello@vagent.ai</li>
+                <li>hello@loqua.ai</li>
                 <li>+1 (555) 123-4567</li>
                 <li>San Francisco, CA</li>
               </ul>
@@ -487,7 +488,7 @@ export default function HowItWorks() {
             </div>
           </div>
           <div className="pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; 2025 VAgent. All rights reserved.</p>
+            <p>&copy; 2025 Loqua. All rights reserved.</p>
           </div>
         </div>
       </footer>

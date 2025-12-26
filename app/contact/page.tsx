@@ -14,8 +14,9 @@ export default function Contact() {
           <div className="flex justify-between items-center h-16">
             <Logo href="/" />
             <div className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-gray-600 hover:text-teal-600 transition">Home</Link>
+              <Link href="/#features" className="text-gray-600 hover:text-teal-600 transition">Features</Link>
               <Link href="/how-it-works" className="text-gray-600 hover:text-teal-600 transition">How It Works</Link>
+              <Link href="/#goals" className="text-gray-600 hover:text-teal-600 transition">Our Goals</Link>
               <Link href="/contact" className="text-teal-600 font-medium">Contact</Link>
             </div>
             <Link href="/contact" className="bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-5 py-2 rounded-full font-medium hover:from-teal-700 hover:to-cyan-700 transition shadow-lg shadow-teal-600/30">
@@ -38,7 +39,7 @@ export default function Contact() {
             <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Together</span>
           </h1>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-2">
-            Ready to see how VAgent can revolutionize your healthcare facility&apos;s communication? We&apos;d love to hear from you and discuss how we can help.
+            Ready to see how Loqua can revolutionize your healthcare facility&apos;s communication? We&apos;d love to hear from you and discuss how we can help.
           </p>
         </div>
       </section>
@@ -53,7 +54,7 @@ export default function Contact() {
               <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Contact Information</span>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4 sm:mb-6">We&apos;re Here to Help</h2>
               <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                Have questions about VAgent? Want to schedule a demo? Or simply want to learn more about how we can help transform your healthcare communication? Reach out to us—we&apos;re here to help.
+                Have questions about Loqua? Want to schedule a demo? Or simply want to learn more about how we can help transform your healthcare communication? Reach out to us—we&apos;re here to help.
               </p>
 
               <div className="space-y-4 sm:space-y-6">
@@ -65,8 +66,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Email Us</h4>
-                    <p className="text-sm sm:text-base text-gray-600">hello@vagent.ai</p>
-                    <p className="text-sm sm:text-base text-gray-600">support@vagent.ai</p>
+                    <p className="text-sm sm:text-base text-gray-600">hello@loqua.ai</p>
+                    <p className="text-sm sm:text-base text-gray-600">support@loqua.ai</p>
                   </div>
                 </div>
 
@@ -100,7 +101,7 @@ export default function Contact() {
               <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl sm:rounded-2xl border border-teal-100">
                 <h4 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">Schedule a Demo</h4>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">
-                  Interested in seeing VAgent in action? Schedule a personalized demo and we&apos;ll show you how it can transform your healthcare facility&apos;s communication.
+                  Interested in seeing Loqua in action? Schedule a personalized demo and we&apos;ll show you how it can transform your healthcare facility&apos;s communication.
                 </p>
                 <a
                   href="#demo-form"
@@ -254,20 +255,20 @@ export default function Contact() {
           <FadeInStagger className="space-y-4 sm:space-y-6">
             {[
               {
-                question: "How quickly can VAgent be implemented?",
+                question: "How quickly can Loqua be implemented?",
                 answer: "Implementation typically takes 2-4 weeks, depending on your facility's specific requirements and integration needs. We work closely with your team to ensure a smooth transition.",
               },
               {
-                question: "Does VAgent integrate with our existing EHR system?",
-                answer: "Yes! VAgent is designed to integrate seamlessly with major EHR platforms including Epic, Cerner, Allscripts, and others. Our team will work with you to ensure proper integration.",
+                question: "Does Loqua integrate with our existing EHR system?",
+                answer: "Yes! Loqua is designed to integrate seamlessly with major EHR platforms including Epic, Cerner, Allscripts, and others. Our team will work with you to ensure proper integration.",
               },
               {
-                question: "Is VAgent HIPAA compliant?",
-                answer: "Absolutely. VAgent is built with healthcare security standards in mind and is fully HIPAA compliant. All patient data is encrypted and handled according to strict healthcare privacy regulations.",
+                question: "Is Loqua HIPAA compliant?",
+                answer: "Absolutely. Loqua is built with healthcare security standards in mind and is fully HIPAA compliant. All patient data is encrypted and handled according to strict healthcare privacy regulations.",
               },
               {
-                question: "Can VAgent handle emergency situations?",
-                answer: "Yes, VAgent is trained to recognize urgent medical situations and can immediately escalate calls to appropriate medical staff or emergency services when necessary.",
+                question: "Can Loqua handle emergency situations?",
+                answer: "Yes, Loqua is trained to recognize urgent medical situations and can immediately escalate calls to appropriate medical staff or emergency services when necessary.",
               },
               {
                 question: "What kind of support do you provide?",
@@ -338,7 +339,7 @@ export default function Contact() {
           </div>
           <div className="border-t border-gray-800 pt-8 text-center">
             <p className="text-gray-500 text-sm">
-              &copy; 2024 VAgent. All rights reserved.
+              &copy; 2024 Loqua. All rights reserved.
             </p>
           </div>
         </div>

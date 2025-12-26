@@ -8,8 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "VAgent | AI-Powered Healthcare Voice Agent",
-  description: "Transform healthcare communication with VAgent - an intelligent AI voice assistant designed for healthcare facilities. 24/7 patient communication, appointment scheduling, and seamless EHR integration.",
+  title: "Loqua | AI-Powered Healthcare Voice Agent",
+  description: "Transform healthcare communication with Loqua - an intelligent AI voice assistant designed for healthcare facilities. 24/7 patient communication, appointment scheduling, and seamless EHR integration.",
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({

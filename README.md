@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Loqua - AI-Powered Healthcare Voice Agent
+
+Transform healthcare communication with Loqua - an intelligent AI voice assistant designed specifically for healthcare facilities.
+
+## Features
+
+- **24/7 Patient Communication** - Never miss a patient call
+- **Intelligent Appointment Scheduling** - Automated scheduling with natural language understanding
+- **HIPAA-Compliant & Secure** - Built with healthcare security standards
+- **Proactive Patient Follow-ups** - Automated reminders and check-ins
+- **Advanced Analytics & Insights** - Real-time dashboards and metrics
+- **Seamless EHR Integration** - Connect with major EHR platforms
 
 ## Getting Started
 
@@ -16,21 +27,38 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 16
+- **UI**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Language**: TypeScript
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── components/        # Reusable React components
+│   ├── contact/          # Contact page
+│   ├── how-it-works/     # How it works page
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Homepage
+├── public/               # Static assets
+└── ...config files
+```
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Framer Motion Documentation](https://www.framer.com/motion)
+
+---
+
+© 2025 Loqua. All rights reserved.
