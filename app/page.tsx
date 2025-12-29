@@ -500,6 +500,45 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Loqua",
+            "applicationCategory": "HealthApplication",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "AI-powered healthcare voice agent for patient communication, appointment scheduling, and seamless EHR integration.",
+            "operatingSystem": "Web",
+            "provider": {
+              "@type": "Organization",
+              "name": "Loqua",
+              "url": "https://loqua.ai",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-555-123-4567",
+                "contactType": "customer service",
+                "email": "hello@loqua.ai"
+              }
+            },
+            "featureList": [
+              "24/7 Patient Communication",
+              "Intelligent Appointment Scheduling",
+              "HIPAA-Compliant Security",
+              "Seamless EHR Integration",
+              "Proactive Patient Follow-ups",
+              "Advanced Analytics & Insights"
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

@@ -1,11 +1,33 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import Logo from "../components/Logo";
 import FadeIn from "../components/FadeIn";
 import FadeInStagger from "../components/FadeInStagger";
 
 export default function Contact() {
+  // Preserve SEO: Set page title and meta description
+  useEffect(() => {
+    document.title = "Contact Us | Loqua";
+    
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Get in touch with Loqua to transform your healthcare facility\'s communication. Schedule a demo or learn more about our AI-powered voice agent.');
+    }
+    
+    // Update OG tags for social sharing
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', 'Contact Loqua | Schedule a Demo');
+    }
+    
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', 'Get in touch with Loqua to transform your healthcare facility\'s communication.');
+    }
+  }, []);
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}

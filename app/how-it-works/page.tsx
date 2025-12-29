@@ -1,11 +1,33 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import Logo from "../components/Logo";
 import FadeIn from "../components/FadeIn";
 import FadeInStagger from "../components/FadeInStagger";
 
 export default function HowItWorks() {
+  // Preserve SEO: Set page title and meta description
+  useEffect(() => {
+    document.title = "How It Works | Loqua";
+    
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Learn how Loqua transforms healthcare communication in 8 simple steps. From consultation to fully autonomous operation, see our AI-powered implementation process.');
+    }
+    
+    // Update OG tags for social sharing
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', 'How Loqua Works | AI Healthcare Voice Agent Implementation');
+    }
+    
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', 'Learn how Loqua transforms healthcare communication in 8 simple steps.');
+    }
+  }, []);
   const steps = [
     {
       number: "1",
