@@ -1,0 +1,163 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Loqua brand gradient -->
+    <linearGradient id="loquaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="50%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    
+    <!-- Subtle background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#e0f2fe" stop-opacity="0.3" />
+    </linearGradient>
+    
+    <!-- Professional glow -->
+    <radialGradient id="glowGradient" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Clean background -->
+  <rect width="600" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Main LQ Logo - Professional and centered -->
+  <g transform="translate(300, 220)">
+    <circle cx="0" cy="0" r="130" fill="url(#glowGradient)" />
+    <path
+      d="
+        M70 40
+        V120
+        C70 145 95 160 120 150
+        C145 140 150 115 135 95
+        C125 80 105 80 95 90
+      "
+      fill="none"
+      stroke="url(#loquaGradient)"
+      stroke-width="30"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      transform="scale(1.9) translate(-100, -80)"
+    />
+  </g>
+  
+  <!-- Professional voice waves - subtle and clean -->
+  <g opacity="0.4" transform="translate(300, 220)">
+    <!-- Wave 1 -->
+    <path
+      d="M-90 0 Q-45 -15 0 0 T90 0"
+      fill="none"
+      stroke="url(#loquaGradient)"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+    <!-- Wave 2 -->
+    <path
+      d="M-110 0 Q-55 -22 0 0 T110 0"
+      fill="none"
+      stroke="url(#loquaGradient)"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      opacity="0.6"
+    />
+    <!-- Wave 3 -->
+    <path
+      d="M-130 0 Q-65 -28 0 0 T130 0"
+      fill="none"
+      stroke="url(#loquaGradient)"
+      stroke-width="2"
+      stroke-linecap="round"
+      opacity="0.4"
+    />
+  </g>
+  
+  <!-- Healthcare elements - professional and subtle -->
+  <g opacity="0.12">
+    <!-- Stethoscope - professional medical icon -->
+    <g transform="translate(420, 140)">
+      <path
+        d="M9 5a2 2 0 0 0-2 2v5.5a3.5 3.5 0 0 0 7 0V7a2 2 0 0 0-2-2h-3z"
+        fill="url(#loquaGradient)"
+        transform="scale(2)"
+      />
+      <path
+        d="M13 7a2 2 0 0 1 2 2v5.5a3.5 3.5 0 0 1-7 0V9a2 2 0 0 1 2-2h3z"
+        fill="url(#loquaGradient)"
+        transform="scale(2) translate(4, 0)"
+      />
+      <path
+        d="M9 5a2 2 0 0 0-2 2v5.5a3.5 3.5 0 0 0 7 0V7a2 2 0 0 0-2-2h-3z"
+        fill="none"
+        stroke="url(#loquaGradient)"
+        stroke-width="2"
+        transform="scale(2)"
+      />
+    </g>
+    
+    <!-- Medical pulse/heartbeat -->
+    <g transform="translate(120, 140)">
+      <path
+        d="M0 20 L10 10 L20 20 L30 5 L40 20 L50 15 L60 20"
+        fill="none"
+        stroke="url(#loquaGradient)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+  </g>
+  
+  <!-- AI/Intelligence - clean network pattern -->
+  <g opacity="0.15">
+    <!-- Central node -->
+    <circle cx="300" cy="220" r="4" fill="url(#loquaGradient)" />
+    
+    <!-- Surrounding nodes -->
+    <circle cx="200" cy="280" r="3" fill="url(#loquaGradient)" />
+    <circle cx="400" cy="280" r="3" fill="url(#loquaGradient)" />
+    <circle cx="250" cy="360" r="3" fill="url(#loquaGradient)" />
+    <circle cx="350" cy="360" r="3" fill="url(#loquaGradient)" />
+    
+    <!-- Clean connection lines -->
+    <line x1="300" y1="220" x2="200" y2="280" stroke="url(#loquaGradient)" stroke-width="1.5" />
+    <line x1="300" y1="220" x2="400" y2="280" stroke="url(#loquaGradient)" stroke-width="1.5" />
+    <line x1="200" y1="280" x2="250" y2="360" stroke="url(#loquaGradient)" stroke-width="1.5" />
+    <line x1="400" y1="280" x2="350" y2="360" stroke="url(#loquaGradient)" stroke-width="1.5" />
+  </g>
+  
+  <!-- Professional Tagline -->
+  <g transform="translate(300, 460)">
+    <text
+      x="0"
+      y="0"
+      font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+      font-size="26"
+      font-weight="700"
+      fill="url(#loquaGradient)"
+      text-anchor="middle"
+      letter-spacing="-0.5"
+    >
+      AI-Powered Voice Agent
+    </text>
+    <text
+      x="0"
+      y="36"
+      font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+      font-size="22"
+      font-weight="600"
+      fill="#475569"
+      text-anchor="middle"
+      letter-spacing="-0.3"
+    >
+      Transforming Healthcare Communication
+    </text>
+  </g>
+  
+  <!-- Professional accent lines -->
+  <g opacity="0.2">
+    <line x1="150" y1="500" x2="250" y2="500" stroke="url(#loquaGradient)" stroke-width="2" stroke-linecap="round" />
+    <line x1="350" y1="500" x2="450" y2="500" stroke="url(#loquaGradient)" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

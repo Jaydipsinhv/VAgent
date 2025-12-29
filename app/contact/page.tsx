@@ -72,80 +72,54 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
             {/* Contact Information - Mobile Optimized */}
             <FadeIn delay={0}>
-              <div>
-              <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Contact Information</span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4 sm:mb-6">We&apos;re Here to Help</h2>
-              <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                Have questions about Loqua? Want to schedule a demo? Or simply want to learn more about how we can help transform your healthcare communication? Reach out to us—we&apos;re here to help.
-              </p>
-
-              <div className="space-y-4 sm:space-y-6">
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-teal-600 to-cyan-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Email Us</h4>
-                    <p className="text-sm sm:text-base text-gray-600">hello@loqua.ai</p>
-                    <p className="text-sm sm:text-base text-gray-600">support@loqua.ai</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-teal-600 to-cyan-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Call Us</h4>
-                    <p className="text-sm sm:text-base text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-xs sm:text-sm text-gray-500 mt-1">Mon - Fri: 9:00 AM - 6:00 PM EST</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-teal-600 to-cyan-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
-                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 mb-1 text-sm sm:text-base">Visit Us</h4>
-                    <p className="text-sm sm:text-base text-gray-600">123 Innovation Drive<br />Tech City, TC 12345<br />United States</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-8 sm:mt-12 p-4 sm:p-6 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl sm:rounded-2xl border border-teal-100">
-                <h4 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">Schedule a Demo</h4>
-                <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">
-                  Interested in seeing Loqua in action? Schedule a personalized demo and we&apos;ll show you how it can transform your healthcare facility&apos;s communication.
+              <div className="flex flex-col h-full">
+                <span className="text-teal-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Contact Information</span>
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mt-2 mb-4 sm:mb-6">We&apos;re Here to Help</h2>
+                <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-8 sm:mb-10 leading-relaxed">
+                  Have questions about Loqua? Want to schedule a demo? Reach out to us, we&apos;re here to help.
                 </p>
-                <a
-                  href="#demo-form"
-                  className="inline-flex items-center gap-2 text-teal-600 font-medium hover:text-teal-700 transition text-sm sm:text-base"
-                >
-                  Schedule Now
-                  <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </a>
-              </div>
+
+                <div className="flex-1 space-y-6 sm:space-y-8">
+                  <div className="flex items-start gap-4 sm:gap-5">
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-teal-600 to-cyan-600 rounded-xl sm:rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <svg className="w-6 h-6 sm:w-7 sm:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-2 text-base sm:text-lg">Email Us</h4>
+                      <a href="mailto:support@loqua.ai" className="text-sm sm:text-base text-teal-600 hover:text-teal-700 transition font-medium">
+                        support@loqua.ai
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="p-5 sm:p-6 lg:p-8 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl sm:rounded-2xl border border-teal-100 shadow-sm">
+                    <h4 className="font-semibold text-gray-900 mb-3 text-base sm:text-lg">Schedule a Demo</h4>
+                    <p className="text-gray-600 text-sm sm:text-base mb-4 sm:mb-5 leading-relaxed">
+                      See Loqua in action and learn how it can transform your healthcare facility&apos;s communication.
+                    </p>
+                    <a
+                      href="#demo-form"
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-5 py-2.5 sm:py-3 rounded-lg sm:rounded-xl font-medium hover:from-teal-700 hover:to-cyan-700 transition shadow-md shadow-teal-600/30 hover:shadow-lg text-sm sm:text-base"
+                    >
+                      Schedule Now
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
             </FadeIn>
 
             {/* Contact Form - Mobile Optimized */}
             <FadeIn delay={0.1}>
               <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl p-5 sm:p-6 lg:p-8 border border-gray-100 hover-lift">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">Send Us a Message</h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">Fill out the form below and we&apos;ll get back to you as soon as possible.</p>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Send Us a Message</h3>
               
-              <form className="space-y-4 sm:space-y-6">
-                <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
+              <form id="demo-form" className="space-y-4 sm:space-y-5">
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-5">
                   <div>
                     <label htmlFor="firstName" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                       First Name *
@@ -189,63 +163,16 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg sm:rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition"
-                    placeholder="+1 (555) 123-4567"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="organization" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
-                    Organization *
-                  </label>
-                  <input
-                    type="text"
-                    id="organization"
-                    name="organization"
-                    required
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg sm:rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition"
-                    placeholder="Healthcare Facility Name"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="inquiry" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
-                    Type of Inquiry *
-                  </label>
-                  <select
-                    id="inquiry"
-                    name="inquiry"
-                    required
-                    className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg sm:rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition bg-white"
-                  >
-                    <option value="">Select an option</option>
-                    <option value="demo">Schedule a Demo</option>
-                    <option value="pricing">Pricing Information</option>
-                    <option value="integration">Integration Questions</option>
-                    <option value="support">Technical Support</option>
-                    <option value="partnership">Partnership Opportunities</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
                   <label htmlFor="message" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1.5 sm:mb-2">
                     Message *
                   </label>
                   <textarea
                     id="message"
                     name="message"
-                    rows={5}
+                    rows={4}
                     required
                     className="w-full px-3 sm:px-4 py-2.5 sm:py-3 text-sm sm:text-base rounded-lg sm:rounded-xl border border-gray-200 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 outline-none transition resize-none"
-                    placeholder="Tell us about your healthcare facility and how we can help..."
+                    placeholder="Tell us how we can help..."
                   ></textarea>
                 </div>
 

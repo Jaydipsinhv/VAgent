@@ -228,7 +228,7 @@ export default function Home() {
             <FadeIn delay={0.1}>
               <div className="relative hidden lg:flex items-center justify-center">
                 <Image
-                  src="/vagent-hero.png"
+                  src="/loqua-hero.svg"
                   alt="Loqua - Intelligent Healthcare Voice Agent"
                   width={500}
                   height={500}
