@@ -196,7 +196,7 @@ export default function Home() {
                   <span className="bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">Communication</span>
                 </h1>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                  Loqua is an intelligent voice agent designed specifically for healthcare. We&apos;re building the future where every patient call is answered instantly, every appointment is scheduled seamlessly, and healthcare providers can focus on what matters most—delivering exceptional care.
+                  Loqua is an intelligent voice agent designed specifically for healthcare. We&apos;re building the future where every patient call is answered instantly, every appointment is scheduled seamlessly, and healthcare providers can focus on what matters most, delivering exceptional care.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                   <Link href="/how-it-works" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-teal-600 to-cyan-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:from-teal-700 hover:to-cyan-700 transition-all duration-300 shadow-lg shadow-teal-600/30 hover:shadow-xl hover:shadow-teal-600/40 hover:-translate-y-0.5">

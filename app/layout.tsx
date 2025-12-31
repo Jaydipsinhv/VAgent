@@ -66,7 +66,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth page-load">
       <body className={`${inter.variable} antialiased`}>
         {children}
-        <script src="http://localhost:8787/widget/loader.js" data-key="pk_CszSCOxsqANFwLBfkJT0" async></script>
+        <script src="https://loqua-api-staging.loqua.workers.dev/widget/loader.js" data-key="pk_Xn8Kq2RvPmT4wB7yLf9J" async></script>
       </body>
     </html>
   );
